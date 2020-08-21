@@ -3,15 +3,15 @@
 buildscript {
     
     repositories {
-
+        google()
+        jcenter()
         maven {
             url 'https://jitpack.io'
          //   url 'http://localhost:8081/artifactory/android-group:1.0'
           //  url 'http://localhost:8081/artifactory/android-group-1'
         }
 
-        google()
-        jcenter()
+
         
     }
     dependencies {
