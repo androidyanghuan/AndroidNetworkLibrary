@@ -5,12 +5,13 @@ buildscript {
     repositories {
 
         maven {
+            url 'https://jitpack.io'
          //   url 'http://localhost:8081/artifactory/android-group:1.0'
-            url 'http://localhost:8081/artifactory/android-group-1'
+          //  url 'http://localhost:8081/artifactory/android-group-1'
         }
 
-//        google()
-//        jcenter()
+        google()
+        jcenter()
         
     }
     dependencies {
@@ -24,12 +25,13 @@ buildscript {
 
 allprojects {
     repositories {
-//        google()
-//        jcenter()
+        google()
+        jcenter()
 
         maven {
+            url 'https://jitpack.io'
         //    url 'http://localhost:8081/artifactory/android-group:1.0'
-            url 'http://localhost:8081/artifactory/android-group-1'
+         //   url 'http://localhost:8081/artifactory/android-group-1'
         }
 
 
